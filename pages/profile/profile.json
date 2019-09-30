@@ -1,3 +1,5 @@
 {
-  "usingComponents": {}
+  "usingComponents": {},
+  "navigationBarTitleText": "购物结算",
+  "enablePullDownRefresh": false
 }

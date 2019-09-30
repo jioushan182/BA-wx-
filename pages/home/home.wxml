@@ -1,2 +1,3 @@
 <!--pages/home/home.wxml-->
-<text>hello home</text>
+<text class='title'>欢迎访问BA便民生活小程序</text>
+
