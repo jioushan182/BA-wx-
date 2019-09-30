@@ -1,6 +1,45 @@
 {
   "pages": [
     "pages/home/home",
-    "pages/about/about"
-  ]
+    "pages/about/about",
+    "pages/profile/profile",
+    "pages/category/category"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#FFDB00",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "BA便民生活",
+    "backgroundColor": "#949494",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "selectedColor": "#FFDB00",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "主页",
+        "iconPath": "tabbar/home.png",
+        "selectedIconPath": "tabbar/home1.png"
+      },
+        {
+          "pagePath": "pages/category/category",
+          "text": "清单",
+          "iconPath": "tabbar/list1.png",
+          "selectedIconPath": "tabbar/list.png"
+        },
+          {
+            "pagePath": "pages/profile/profile",
+            "text": "购物车",
+            "iconPath": "tabbar/shop.png",
+            "selectedIconPath": "tabbar/shop1.png"
+          },
+            {
+              "pagePath": "pages/about/about",
+              "text": "用户",
+              "iconPath": "tabbar/user1.png",
+              "selectedIconPath": "tabbar/user.png"
+            }
+    ]
+  }
 }
