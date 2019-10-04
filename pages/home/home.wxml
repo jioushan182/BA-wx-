@@ -1,3 +1,17 @@
 <!--pages/home/home.wxml-->
 <text class='title'>欢迎访问BA便民生活小程序</text>
-
+<!--程序介绍-->
+<view class="biaoti">
+<view class="y01"></view>
+<text class="t01">程序介绍</text>
+<navigator class="m01" url="">了解详情>></navigator>
+</view>
+<view class="gongsijianjie">
+该程序版本为demo测试版本，相关功能陆续开发上线。我们诚招前端开发者帮助我们建设此程序！
+</view>
+<!--程序功能-->
+<view class="biaoti">
+<view class="y01"></view>
+<text class="t01">服务提供</text>
+<navigator class="m01" url="pages/category/category.wxml">了解详情>></navigator>
+</view>

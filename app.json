@@ -22,24 +22,25 @@
         "iconPath": "tabbar/home.png",
         "selectedIconPath": "tabbar/home1.png"
       },
-        {
-          "pagePath": "pages/category/category",
-          "text": "清单",
-          "iconPath": "tabbar/list1.png",
-          "selectedIconPath": "tabbar/list.png"
-        },
-          {
-            "pagePath": "pages/profile/profile",
-            "text": "购物车",
-            "iconPath": "tabbar/shop.png",
-            "selectedIconPath": "tabbar/shop1.png"
-          },
-            {
-              "pagePath": "pages/about/about",
-              "text": "用户",
-              "iconPath": "tabbar/user1.png",
-              "selectedIconPath": "tabbar/user.png"
-            }
+      {
+        "pagePath": "pages/category/category",
+        "text": "清单",
+        "iconPath": "tabbar/list1.png",
+        "selectedIconPath": "tabbar/list.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "购物车",
+        "iconPath": "tabbar/shop.png",
+        "selectedIconPath": "tabbar/shop1.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "用户",
+        "iconPath": "tabbar/user1.png",
+        "selectedIconPath": "tabbar/user.png"
+      }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap27.json"
 }
