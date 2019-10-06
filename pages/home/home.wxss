@@ -35,3 +35,35 @@
   padding: 5px;
   text-indent: 2em;
 }
+.cp_fuwu{
+  display: flex;
+  flex-wrap: wrap;
+}
+.cp_xiangmu{
+  width: 50%;
+  padding: 3px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.cp_photo{
+  width: 100%;
+}
+.cp_mingcheng{
+ overflow: hidden;
+ white-space: nowrap;
+ text-overflow: ellipsis;
+ font-size: 14px;
+ color: gray;
+}
+.about{
+ display: flex;padding: 5px;margin: 5px;
+ align-content: center;
+ border-bottom: 1px solid gainsboro;
+}
+.zixun_tubiao{
+ width: 9px;
+}
+.zixun01{
+ flex-grow: 1;
+}

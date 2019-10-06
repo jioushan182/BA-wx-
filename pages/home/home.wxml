@@ -4,7 +4,7 @@
 <view class="biaoti">
 <view class="y01"></view>
 <text class="t01">程序介绍</text>
-<navigator class="m01" url="">了解详情>></navigator>
+<navigator class="m01" url="/pages/about/about" open-type="switchTab">了解详情>></navigator>
 </view>
 <view class="gongsijianjie">
 该程序版本为demo测试版本，相关功能陆续开发上线。我们诚招前端开发者帮助我们建设此程序！
@@ -13,5 +13,30 @@
 <view class="biaoti">
 <view class="y01"></view>
 <text class="t01">服务提供</text>
-<navigator class="m01" url="pages/category/category.wxml">了解详情>></navigator>
+<navigator class="m01" url="/pages/category/category" open-type="switchTab">了解详情>></navigator>
 </view>
+
+<view class="cp_fuwu">
+ <navigator url="/pages/profile/profile" open-type="switchTab" class="cp_xiangmu">
+ <image src="/photo/物流提供.jpg" class="cp_photo" mode="widthfix"></image>
+ <text class="cp_mingcheng">急速物流</text>
+ </navigator>
+
+ <navigator url="" class="cp_xiangmu">
+ <image src="/photo/暂未开发.jpg" class="cp_photo" mode="widthfix"></image>
+ <text class="cp_mingcheng">暂未开发</text>
+ </navigator>
+</view>
+<view class="biaoti">
+ <view class="y01"></view>
+ <text class="t01">关于我们</text>
+ <navigator class="m01" url="">了解详情>></navigator>
+</view>
+<navigator url="" class="about">
+ <text class="zixun01">开发者</text>
+ <image src="/photo/右.png" class="zixun_tubiao" mode="widthFix"></image>
+</navigator>
+<navigator url="" class="about">
+ <text class="zixun01">版本demo</text>
+ <image src="/photo/右.png" class="zixun_tubiao" mode="widthFix"></image>
+</navigator>
