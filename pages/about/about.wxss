@@ -1,1 +1,16 @@
 /* pages/about/about.wxss */
+.yangshi{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.tupianyangshi{
+  width: 400rpx;
+  border-radius: 50%;
+
+}
+.zitiyangshi{
+  font-size: 30px;
+}

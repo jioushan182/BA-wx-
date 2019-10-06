@@ -1,2 +1,16 @@
 <!--pages/category/category.wxml-->
-<text>pages/category/category.wxml</text>
+<form bindsubmit="handleSubmit">
+  <view class="myform">
+    <view>快递日期</view>
+    <input name='riqi' type="text" placeholder="请输入 月/日"></input>
+    <view>收件人姓名</view>
+    <input name='fist' type="text" placeholder="请输入收件人名字"></input>
+    <view>提取码</view>
+    <input name='number' type="text" placeholder="请输入提货码"></input>
+    <view>收件人手机号</view>
+    <input name='tel' type="text" placeholder="请输入快件手机号"></input>
+    <view>备注</view>
+    <textarea name='more' placeholder="备注信息"></textarea>
+   </view> 
+ <button form-type="submit">提交信息</button>
+</form>

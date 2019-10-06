@@ -17,7 +17,7 @@
 </view>
 
 <view class="cp_fuwu">
- <navigator url="/pages/profile/profile" open-type="switchTab" class="cp_xiangmu">
+ <navigator url="/pages/category/category" open-type="switchTab" class="cp_xiangmu">
  <image src="/photo/物流提供.jpg" class="cp_photo" mode="widthfix"></image>
  <text class="cp_mingcheng">急速物流</text>
  </navigator>
@@ -40,3 +40,8 @@
  <text class="zixun01">版本demo</text>
  <image src="/photo/右.png" class="zixun_tubiao" mode="widthFix"></image>
 </navigator>
+<view class="biaoti">
+<view class="y01"></view>
+<text class="t01">未开发</text>
+<navigator class="m01" url="/pages/about/about" open-type="switchTab">了解详情>></navigator>
+</view>

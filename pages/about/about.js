@@ -5,14 +5,30 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+   name:'hello',
+   src:'/photo/BA.jpg'
   },
-
-  /**
+  getMyInfo:function(e){
+    console.log(e.detail.userInfo)
+    let info=e.detail.userInfo;
+    this.setData({
+      name:info.nickName,
+      src:info.avatarUrl
+    })    
+  },
+  /** 
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    const db = wx.cloud.database();
+    db.collection("users").get({
+      success: res => {
+        console.log("获取所有用户：", res.data);
+      },
+      fail:res=>{
+        console.log("获取用户失败",res);
+      }
+    })
   },
 
   /**

@@ -1,2 +1,7 @@
 <!--pages/about/about.wxml-->
-<text>hello about!</text>
+<view class="yangshi">
+ <image src="{{src}}" class="tupianyangshi"></image>
+ <text class="zitiyangshi">欢迎登陆，{{name}}！</text>
+ <button open-type="getUserInfo" 
+ bindgetuserinfo="getMyInfo">点击登录</button>
+</view>

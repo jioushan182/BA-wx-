@@ -12,9 +12,17 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    const db=wx.cloud.database();
+    db.collection("users").orderBy('time','desc').skip(2).limit(2).get({
+      success:res=>{
+        console.log("获取所有用户：",res.data);
+      }
+    })
 
   },
-
+  handleSubmit:function(ev){
+    console.log(ev.detail.value);
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

@@ -1,11 +1,20 @@
 App({
-
+  config: {
+    host: 'api.jioushan.top' // 这个地方填写你的域名
+  },
   /**
    * 当小程序初始化完成时，会触发 onLaunch（全局只触发一次）
    */
   onLaunch: function () {
-    
-  },
+    if(!wx.cloud){
+      console.error
+      }else{
+        wx.cloud.init({
+          env:'tprd-asg0f',
+          traceUser:true
+        })
+      }
+    },
 
   /**
    * 当小程序启动，或从后台进入前台显示，会触发 onShow
